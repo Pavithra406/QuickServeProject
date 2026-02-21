@@ -1,0 +1,32 @@
+.booking-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.booking-form input,
+.booking-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background: #1e9aa7;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
