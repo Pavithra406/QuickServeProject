@@ -323,6 +323,57 @@ QuickServeProject/
 | Maven | 3.8+ | `mvn --version` |
 
 ---
+### ⚡ Quick Setup
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/Pavithra406/QuickServeProject.git
+cd QuickServeProject
+```
+
+**2. Start MongoDB** *(if running locally)*
+```bash
+mongod --dbpath /data/db
+```
+
+**3. Configure backend environment**
+
+Create `quickserve/src/main/resources/application.properties`:
+```properties
+spring.data.mongodb.uri=mongodb://localhost:27017/quickserve
+spring.data.mongodb.database=quickserve
+jwt.secret=your_jwt_secret_key_here
+jwt.expiration=86400000
+server.port=8080
+```
+
+**4. Run the Spring Boot backend**
+```bash
+cd quickserve
+mvn spring-boot:run
+```
+> ✅ Backend running at `http://localhost:8080`
+
+**5. Install frontend dependencies**
+```bash
+cd ../quickserve-frontend
+npm install
+```
+
+**6. Configure frontend API base URL**
+
+In `quickserve-frontend/src/services/api.js`:
+```js
+const BASE_URL = "http://localhost:8080/api";
+```
+
+**7. Start the React frontend**
+```bash
+npm start
+```
+> ✅ App running at `http://localhost:3000`
+
+---
 
 
 👤 Author & Support
