@@ -374,7 +374,61 @@ npm start
 > ✅ App running at `http://localhost:3000`
 
 ---
+## 📊 API Overview
 
+<details>
+<summary><b>🔐 Auth Endpoints</b></summary>
+<br/>
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/auth/register` | Register a new user or provider |
+| `POST` | `/api/auth/login` | Login and receive JWT token |
+| `GET` | `/api/auth/me` | Get current authenticated user |
+
+</details>
+
+<details>
+<summary><b>📅 Booking Endpoints</b></summary>
+<br/>
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/bookings` | Get all bookings for current user |
+| `POST` | `/api/bookings` | Create a new booking |
+| `PUT` | `/api/bookings/:id` | Update or reschedule a booking |
+| `DELETE` | `/api/bookings/:id` | Cancel a booking |
+| `GET` | `/api/bookings/:id/status` | Get booking status |
+
+</details>
+
+<details>
+<summary><b>🔧 Provider Endpoints</b></summary>
+<br/>
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/providers` | List all providers |
+| `GET` | `/api/providers/:id` | Get provider profile |
+| `GET` | `/api/providers?service=plumber` | Filter by service type |
+| `GET` | `/api/providers/:id/slots` | Get available time slots |
+
+</details>
+
+<details>
+<summary><b>⭐ Review & Complaint Endpoints</b></summary>
+<br/>
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/reviews` | Submit a review for a booking |
+| `GET` | `/api/reviews/provider/:id` | Get reviews for a provider |
+| `POST` | `/api/complaints` | File a complaint |
+| `GET` | `/api/complaints/:id` | Get complaint status |
+
+</details>
+
+---
 
 👤 Author & Support
 Developed with ❤️ by Pavithra
