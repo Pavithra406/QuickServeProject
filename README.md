@@ -118,6 +118,31 @@ No more waiting. No more guessing. Just book and get it done.
 | **Pest Control** | 🐛 | Treatment for insects, rodents | Scheduled |
 
 </div>
+---
+
+## ✨ Key Features
+
+<details open>
+<summary><b>📅 Smart Booking System</b></summary>
+<br/>
+
+- Choose your preferred **date and time slot** from available windows
+- Real-time **slot availability** check — no double bookings
+- **Instant confirmation** with booking ID
+- **Reschedule or cancel** up to 2 hours before the appointment
+
+</details>
+
+<details>
+<summary><b>👤 User & Provider Profiles</b></summary>
+<br/>
+
+- Users register, manage bookings, and track history
+- Service providers list their availability, skills, and pricing
+- Verified badges for trusted professionals
+- Profile photos, experience, and certifications displayed
+
+</details>
 
 
 ---
