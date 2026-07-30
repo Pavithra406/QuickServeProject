@@ -143,7 +143,51 @@ No more waiting. No more guessing. Just book and get it done.
 - Profile photos, experience, and certifications displayed
 
 </details>
+<details>
+<summary><b>⭐ Ratings & Reviews</b></summary>
+<br/>
 
+- Post-service rating (1–5 stars) with written review
+- Provider average rating visible on listing
+- Review history browsable per provider
+- Helps future customers make informed choices
+
+</details>
+
+<details>
+<summary><b>🚨 Complaint Management</b></summary>
+<br/>
+
+- File a complaint directly from your booking history
+- Admin review workflow with resolution tracking
+- Status updates: Submitted → Under Review → Resolved
+- Protects users and maintains service quality
+
+</details>
+
+<details>
+<summary><b>🔔 Real-Time Notifications</b></summary>
+<br/>
+
+- Booking confirmation alerts
+- Reminder before service time
+- Status change updates (provider en-route, arrived, completed)
+- Complaint resolution notifications
+
+</details>
+
+<details>
+<summary><b>🔒 Secure Authentication</b></summary>
+<br/>
+
+- JWT-based authentication for users and providers
+- Role-based access control (User / Provider / Admin)
+- Encrypted passwords with bcrypt
+- Protected API routes
+
+</details>
+
+---
 
 ---
 
