@@ -10,61 +10,22 @@ Markdown
 
 ---
 
-## 📌 Project Overview
+<div align="center">
 
-**QuickServeProject** is built to streamline customer requests, service processing, and automated workflow management. It provides an intuitive user interface backed by high-performance server logic to ensure fast and reliable service handling.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35,F7931E,FFD700&height=220&section=header&text=QuickServe&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Book%20Home%20Services%20at%20Your%20Convenient%20Time&descAlignY=60&descColor=fff3e0&animation=fadeIn" width="100%"/>
 
-   📱 Client Request ──────► ⚡ QuickServe Engine ──────► 📊 Order & Service DB
+<!-- Animated Title -->
+<h2>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=FF6B35&center=true&vCenter=true&width=700&lines=🔧+Book+a+Plumber+in+Minutes;🌿+Schedule+a+Gardener+Instantly;🏠+Home+Services+at+Your+Doorstep;⭐+Rate+%26+Review+Your+Experience;📅+Pick+Your+Convenient+Time+Slot" alt="Typing SVG"/>
+</h2>
 
----
-
-## 🎯 Key Features
-
-- ⚡ **Rapid Request Processing** — Designed for high-speed service routing and minimal waiting time.
-- 📱 **User-Friendly Dashboard** — Simple and responsive interface for tracking requests and orders in real time.
-- 🔒 **Secure Data Management** — Protected user authentication and secure transaction handling.
-- 🔔 **Real-Time Updates** — Instant notifications and status updates for active requests.
-
----
-
-## 🛠️ Tech Stack
-
-┌─────────────────┬───────────────────────────────────────────┐
-│ Layer           │ Technology / Framework                    │
-├─────────────────┼───────────────────────────────────────────┤
-│ Frontend        │ HTML5 • CSS3 • JavaScript / React.js       │
-│ Backend         │ Node.js • Express / Python                │
-│ Database        │ MongoDB / MySQL / PostgreSQL              │
-│ Environment     │ Git • Docker • npm / pip                  │
-└─────────────────┴───────────────────────────────────────────┘
-
-
----
-
-## 🚀 Quickstart & Setup Guide
-
-### 1️⃣ Clone the Repository
-```bash
-git clone [https://github.com/Pavithra406/QuickServeProject.git](https://github.com/Pavithra406/QuickServeProject.git)
-cd QuickServeProject
-2️⃣ Install Dependencies
-Bash
-npm install
-3️⃣ Configure Environment
-Create a .env file in the root folder:
-
-Code snippet
-PORT=5000
-DATABASE_URL=your_database_connection_string
-SECRET_KEY=your_secret_key_here
-4️⃣ Launch the Application
-Bash
-# Start in development mode
-npm run dev
-
-# Start in production mode
-npm start
-🌐 Access Point: Open your browser at http://localhost:5000 once the server starts.
+<!-- Badges -->
+<p>
+  <img src="https://img.shields.io/badge/React.js-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+</p>
 
 📁 Repository Structure
 📦 QuickServeProject
