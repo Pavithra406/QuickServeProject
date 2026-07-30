@@ -1,184 +1,227 @@
-# QuickServe 🚀
+<div align="center">
 
-## 📌 Project Overview
+# 🍽️ QuickServe
 
-**QuickServe** is a modern web-based service management platform designed to streamline service requests and responses between users and service providers. The application enables users to submit service requests easily while allowing administrators or service teams to manage, track, and respond to those requests efficiently.
+### Fast • Smart • Seamless Food Ordering Experience
 
-The platform is built using a **React frontend**, **Java backend**, and **MongoDB database**, ensuring high performance, scalability, and seamless data management.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
 
----
+*A modern restaurant ordering platform that enables customers to browse menus, place orders, and enjoy a smooth food ordering experience while providing efficient management for restaurants.*
 
-## 🎯 Objectives
-
-* Simplify the process of creating and managing service requests.
-* Provide a responsive and user-friendly interface.
-* Enable efficient communication between users and service providers.
-* Maintain secure and scalable data storage.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* React.js
-* HTML5
-* CSS3
-* JavaScript
-* Axios
-
-### Backend
-
-* Java
-* REST APIs
-* Spring Boot (if used)
-
-### Database
-
-* MongoDB
-
-### Tools & Technologies
-
-* Git & GitHub
-* Postman (API Testing)
-* Node Package Manager (NPM)
-* MongoDB Compass
+</div>
 
 ---
 
-## ⚙️ Features
+# 📖 Overview
 
-* 👤 **User Authentication**
+QuickServe is a full-stack food ordering application designed to simplify the ordering process for customers and restaurant administrators.
 
-  * Secure login and registration for users.
-
-* 📝 **Service Request Management**
-
-  * Users can create and submit service requests.
-
-* 📊 **Admin Dashboard**
-
-  * Admins can view, manage, and respond to service requests.
-
-* 🔍 **Request Tracking**
-
-  * Users can track the status of their submitted requests.
-
-* 📱 **Responsive UI**
-
-  * Works smoothly across desktop and mobile devices.
-
-* 🔒 **Secure Data Handling**
-
-  * Backend APIs ensure safe communication and data protection.
+The application provides an intuitive interface for menu browsing, order placement, order tracking, and restaurant management.
 
 ---
 
-## 🏗️ System Architecture
+# ✨ Features
 
-QuickServe follows a **three-tier architecture**:
+### 👤 Customer
 
-1. **Presentation Layer**
+- 🍕 Browse food categories
+- 🔍 Search food items
+- 🛒 Add items to cart
+- 💳 Place orders
+- 📜 View order history
+- ❤️ Favorite dishes
 
-   * React-based user interface for user interaction.
+### 👨‍💼 Admin
 
-2. **Application Layer**
-
-   * Java backend handling business logic and REST APIs.
-
-3. **Data Layer**
-
-   * MongoDB database storing service requests and user information.
+- ➕ Add new food items
+- ✏️ Update menu
+- ❌ Delete food items
+- 📦 Manage orders
+- 👥 Manage customers
+- 📊 Dashboard
 
 ---
 
-## 📂 Project Structure
+# 🚀 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Backend |
+| Spring Boot | REST API |
+| MySQL | Database |
+| HTML | Frontend |
+| CSS | Styling |
+| JavaScript | Client-side Logic |
+| Git | Version Control |
+
+---
+
+# 📂 Project Structure
 
 ```
 QuickServe/
 │
-├── frontend/            # React application
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── assets/
+├── backend/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   └── config/
 │
-├── backend/             # Java backend services
-│   ├── controllers/
-│   ├── services/
-│   ├── models/
-│   └── repositories/
+├── frontend/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   └── pages/
 │
-├── database/            # MongoDB collections & configuration
+├── database/
 │
 └── README.md
 ```
 
 ---
 
-## 🚀 Installation & Setup
+# 📸 Screenshots
 
-### 1️⃣ Clone the Repository
+| Home | Menu |
+|------|------|
+| ![](screenshots/home.png) | ![](screenshots/menu.png) |
+
+| Cart | Dashboard |
+|------|-----------|
+| ![](screenshots/cart.png) | ![](screenshots/dashboard.png) |
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/quickserve.git
-cd quickserve
+git clone https://github.com/Pavithra406/QuickServeProject.git
 ```
 
-### 2️⃣ Setup Backend
+### Navigate
 
 ```bash
-cd backend
-mvn install
-mvn spring-boot:run
+cd QuickServeProject
 ```
 
-### 3️⃣ Setup Frontend
+### Backend
 
 ```bash
-cd frontend
-npm install
-npm start
+Run Spring Boot Application
 ```
 
-### 4️⃣ Configure Database
+### Database
 
-* Install MongoDB
-* Create a database named **quickserve**
-* Update MongoDB connection string in the backend configuration.
+```sql
+Create MySQL Database
 
----
+Import database.sql
 
-## 🧪 API Testing
+Update application.properties
+```
 
-APIs can be tested using **Postman** to verify request creation, authentication, and service management functionalities.
+### Frontend
 
----
+Open
 
-## 📈 Future Enhancements
+```
+index.html
+```
 
-* Notification system for request updates
-* Role-based access control
-* Real-time service tracking
-* Integration with cloud deployment
-* Analytics dashboard for administrators
+or
 
----
-
-## 🤝 Contribution
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements.
+```
+http://localhost:8080
+```
 
 ---
 
-## 📄 License
+# 💻 Workflow
 
-This project is developed for educational and learning purposes.
+```
+Customer
+      │
+      ▼
+Browse Menu
+      │
+      ▼
+Add to Cart
+      │
+      ▼
+Checkout
+      │
+      ▼
+Payment
+      │
+      ▼
+Order Confirmation
+      │
+      ▼
+Restaurant Dashboard
+```
 
 ---
 
-## 👩‍💻 Author
+# 🌟 Future Enhancements
 
-**Pavithra Thangadurai**
+- 🤖 AI Food Recommendation
+- 💬 Chatbot Support
+- 📍 Live Order Tracking
+- 💳 Online Payment Gateway
+- ⭐ Review & Ratings
+- 🔔 Push Notifications
+- 📱 Mobile App
 
-If you like this project, feel free to ⭐ the repository!
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create your feature branch
+
+```
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is developed for learning and educational purposes.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, give it a Star ⭐
+
+Made with ❤️ by **Pavithra Thangadurai**
+
+</div>
