@@ -46,6 +46,79 @@
 | 📊 | [API Overview](#-api-overview) | 🔮 | [Roadmap](#-roadmap) |
 
 </div>
+---
+
+## 🌟 What is QuickServe?
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+**QuickServe** solves a universal household problem — finding and booking reliable local service professionals takes too long, involves too many calls, and offers zero transparency on availability or pricing.
+
+With QuickServe:
+
+- 🔍 **Browse** verified service providers by category
+- 📅 **Book** a slot at your preferred date and time
+- 💬 **Chat** or communicate your requirements upfront
+- ⭐ **Rate and Review** after the service is done
+- 📋 **Track** booking status in real time
+- 🚨 **File complaints** if something goes wrong
+
+No more waiting. No more guessing. Just book and get it done.
+
+</td>
+<td width="42%" valign="top" align="center">
+
+```
+         🏠 YOUR HOME
+              │
+              ▼
+   ┌─────────────────────┐
+   │   QuickServe App    │
+   │  ┌───────────────┐  │
+   │  │ Browse Service│  │
+   │  │  Providers    │  │
+   │  └──────┬────────┘  │
+   │         │           │
+   │  ┌──────▼────────┐  │
+   │  │  Pick a Time  │  │
+   │  │    Slot       │  │
+   │  └──────┬────────┘  │
+   │         │           │
+   │  ┌──────▼────────┐  │
+   │  │   Booking     │  │
+   │  │  Confirmed ✅ │  │
+   │  └───────────────┘  │
+   └─────────────────────┘
+              │
+              ▼
+   🔧 Professional Arrives
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Services Available
+
+<div align="center">
+
+| Service | Icon | Description | Avg. Booking Time |
+|---|---|---|---|
+| **Plumber** | 🔧 | Pipe repairs, leaks, installations | < 2 hours |
+| **Gardener** | 🌿 | Lawn mowing, pruning, landscaping | Same day |
+| **Electrician** | ⚡ | Wiring, fuse fixes, appliance setup | < 3 hours |
+| **Carpenter** | 🪚 | Furniture repair, door fixes | Next day |
+| **House Cleaner** | 🧹 | Deep cleaning, regular maintenance | Same day |
+| **Painter** | 🎨 | Interior/exterior painting | Scheduled |
+| **AC Technician** | ❄️ | AC service, repair, installation | < 4 hours |
+| **Pest Control** | 🐛 | Treatment for insects, rodents | Scheduled |
+
+</div>
+
 
 ---
 
