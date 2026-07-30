@@ -1,14 +1,4 @@
-Markdown
-# ⚡ QuickServeProject
 
-> **A fast, efficient, and scalable service delivery and management application.**
-
-[![GitHub Stars](https://img.shields.io/github/stars/Pavithra406/QuickServeProject?style=flat-square&color=gold)](https://github.com/Pavithra406/QuickServeProject/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/Pavithra406/QuickServeProject?style=flat-square&color=orange)](https://github.com/Pavithra406/QuickServeProject/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/Pavithra406/QuickServeProject?style=flat-square&color=red)](https://github.com/Pavithra406/QuickServeProject/issues)
-[![License](https://img.shields.io/github/license/Pavithra406/QuickServeProject?style=flat-square&color=blue)](LICENSE)
-
----
 
 <div align="center">
 
@@ -27,26 +17,37 @@ Markdown
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
 </p>
 
-📁 Repository Structure
-📦 QuickServeProject
- ├── 📂 src
- │    ├── 📂 components   # Reusable UI components
- │    ├── 📂 controllers  # Request & service handlers
- │    ├── 📂 models       # Database schema & entities
- │    └── 📂 routes       # API route definitions
- ├── 📂 public            # Assets, icons, and static templates
- ├── 📄 package.json      # Dependencies and execution scripts
- └── 📄 README.md         # Documentation
-🗺️ Project Milestones
-[x] Baseline project structure and repository setup
+<p>
+  <img src="https://img.shields.io/github/stars/Pavithra406/QuickServeProject?style=flat-square&color=FFD700&label=Stars"/>
+  <img src="https://img.shields.io/github/forks/Pavithra406/QuickServeProject?style=flat-square&color=F7931E&label=Forks"/>
+  <img src="https://img.shields.io/github/issues/Pavithra406/QuickServeProject?style=flat-square&color=FF6B35&label=Issues"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-blue?style=flat-square"/>
+</p>
 
-[x] Initial service request handling API
+<br/>
 
-[ ] Real-time status tracking dashboard
+> 🏠 **QuickServe** is a full-stack web platform where users can browse, book, and review professional home service providers — plumbers, gardeners, electricians, and more — all at their most convenient time.
 
-[ ] Email/SMS notification integration
+</div>
 
-[ ] Automated end-to-end testing suite
+---
+
+## 📖 Table of Contents
+
+<div align="center">
+
+| | Section | |  Section |
+|---|---|---|---|
+| 🌟 | [What is QuickServe?](#-what-is-quickserve) | 🏗️ | [Architecture](#-architecture) |
+| 🛠️ | [Services Available](#️-services-available) | ⚙️ | [Tech Stack](#️-tech-stack) |
+| ✨ | [Key Features](#-key-features) | 📂 | [Project Structure](#-project-structure) |
+| 🔄 | [How It Works](#-how-it-works) | 🚀 | [Getting Started](#-getting-started) |
+| 📊 | [API Overview](#-api-overview) | 🔮 | [Roadmap](#-roadmap) |
+
+</div>
+
+---
 
 👤 Author & Support
 Developed with ❤️ by Pavithra
