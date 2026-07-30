@@ -214,6 +214,116 @@ PROVIDER JOURNEY
   Register ──► Set Availability ──► Receive Booking ──► Complete Job ──► Get Paid
 ```
 ---
+## 🏗️ Architecture
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                        QuickServe Platform                       │
+│                                                                  │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                   Frontend  (React.js)                  │    │
+│  │   • Booking UI     • Provider Listings    • Dashboard   │    │
+│  │   • User Profile   • Ratings & Reviews   • Complaints  │    │
+│  └────────────────────────┬────────────────────────────────┘    │
+│                           │  REST API (JSON over HTTP)          │
+│  ┌────────────────────────▼────────────────────────────────┐    │
+│  │                  Backend  (Spring Boot)                 │    │
+│  │                                                         │    │
+│  │  ┌────────────┐  ┌─────────────┐  ┌────────────────┐  │    │
+│  │  │   Auth     │  │  Booking    │  │   Review &     │  │    │
+│  │  │  Service   │  │  Service    │  │  Complaint Svc │  │    │
+│  │  └────────────┘  └─────────────┘  └────────────────┘  │    │
+│  │                                                         │    │
+│  │  ┌────────────┐  ┌─────────────┐  ┌────────────────┐  │    │
+│  │  │  Provider  │  │ Notification│  │    Admin       │  │    │
+│  │  │  Service   │  │   Service   │  │    Service     │  │    │
+│  │  └────────────┘  └─────────────┘  └────────────────┘  │    │
+│  └────────────────────────┬────────────────────────────────┘    │
+│                           │                                      │
+│  ┌────────────────────────▼────────────────────────────────┐    │
+│  │                   Database  (MongoDB)                   │    │
+│  │   Users · Providers · Bookings · Reviews · Complaints   │    │
+│  └─────────────────────────────────────────────────────────┘    │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+---
+## ⚙️ Tech Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Frontend** | ![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB) | Dynamic UI & component architecture |
+| **Frontend Styling** | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Responsive layouts & styling |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) | REST API, business logic, auth |
+| **Language** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Backend (Java) · Frontend (JS) |
+| **Database** | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | NoSQL document storage |
+| **Auth** | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) | Secure token-based authentication |
+| **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) | Source control & collaboration |
+| **API Testing** | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) | REST API testing & documentation |
+
+</div>
+
+---
+
+## 📂 Project Structure
+
+```
+QuickServeProject/
+│
+├── 📁 quickserve-frontend/          ← React.js Frontend
+│   ├── 📁 src/
+│   │   ├── 📁 components/           ← Reusable UI components
+│   │   │   ├── BookingCard.jsx
+│   │   │   ├── ProviderCard.jsx
+│   │   │   ├── ReviewForm.jsx
+│   │   │   └── TimeSlotPicker.jsx
+│   │   ├── 📁 pages/                ← Route-level views
+│   │   │   ├── Home.jsx
+│   │   │   ├── ServiceList.jsx
+│   │   │   ├── BookingPage.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── ComplaintPage.jsx
+│   │   ├── 📁 services/             ← Axios API calls
+│   │   └── 📁 context/              ← Auth & booking state
+│   └── package.json
+│
+├── 📁 quickserve/                   ← Spring Boot Backend
+│   └── 📁 src/main/java/
+│       ├── 📁 controllers/          ← REST endpoint handlers
+│       │   ├── BookingController.java
+│       │   ├── ProviderController.java
+│       │   ├── ReviewController.java
+│       │   └── ComplaintController.java
+│       ├── 📁 models/               ← MongoDB document schemas
+│       │   ├── User.java
+│       │   ├── Booking.java
+│       │   ├── Provider.java
+│       │   └── Review.java
+│       ├── 📁 services/             ← Business logic layer
+│       ├── 📁 repositories/         ← MongoDB data access
+│       └── 📁 security/             ← JWT config & filters
+│
+├── 📄 LICENSE                       ← MIT License
+└── 📄 README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+| Tool | Version | Check |
+|---|---|---|
+| Node.js | 16+ | `node --version` |
+| Java | 17+ | `java --version` |
+| MongoDB | 6+ | `mongod --version` |
+| Maven | 3.8+ | `mvn --version` |
+
+---
+
 
 👤 Author & Support
 Developed with ❤️ by Pavithra
