@@ -429,6 +429,78 @@ npm start
 </details>
 
 ---
+## 🔮 Roadmap
+
+<div align="center">
+
+| Status | Feature |
+|---|---|
+| ✅ Done | Project structure & repository setup |
+| ✅ Done | Service booking REST API |
+| ✅ Done | React frontend with booking flow |
+| ✅ Done | Ratings & review system |
+| ✅ Done | Complaint filing system |
+| ✅ Done | MongoDB integration |
+| 🔄 In Progress | Real-time booking status dashboard |
+| 🔄 In Progress | JWT authentication & role-based access |
+| 📋 Planned | Email / SMS notification on booking |
+| 📋 Planned | In-app chat between user & provider |
+| 📋 Planned | Payment gateway integration |
+| 📋 Planned | Provider earnings dashboard |
+| 📋 Planned | Mobile app (React Native) |
+| 💡 Idea | AI-based provider recommendation engine |
+| 💡 Idea | Multi-language support |
+
+</div>
+
+---
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+```
+1. Fork the repository
+2. Create your feature branch  →  git checkout -b feature/AmazingFeature
+3. Commit your changes         →  git commit -m 'Add AmazingFeature'
+4. Push to the branch          →  git push origin feature/AmazingFeature
+5. Open a Pull Request         →  describe what you've changed and why
+```
+
+Found a bug? [Open an issue](https://github.com/Pavithra406/QuickServeProject/issues) — all reports are welcome!
+
+---
+
+## 👩‍💻 Author
+
+<div align="center">
+
+<img src="https://github.com/Pavithra406.png" width="90" style="border-radius:50%"/>
+
+### Pavithra Thangadurai
+*B.Tech – Information Technology*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Pavithra406-181717?style=for-the-badge&logo=github)](https://github.com/Pavithra406)
+[![Portfolio](https://img.shields.io/badge/Portfolio-NilaByte-6C63FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pavithra406.github.io/NilaByte/)
+[![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pavithrathangaduraitr@gmail.com)
+
+</div>
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+*If QuickServe helped you or you found it interesting, drop a ⭐ — it means a lot!*
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35,F7931E,FFD700&height=100&section=footer" width="100%"/>
+
 
 👤 Author & Support
 Developed with ❤️ by Pavithra
