@@ -188,7 +188,31 @@ No more waiting. No more guessing. Just book and get it done.
 </details>
 
 ---
+## 🔄 How It Works
 
+```
+CUSTOMER JOURNEY
+─────────────────────────────────────────────────────────────────────
+
+  1. SIGN UP          2. BROWSE           3. SELECT SLOT      4. BOOK
+  ┌──────────┐        ┌──────────┐        ┌──────────┐        ┌──────────┐
+  │ Register │──────► │ Choose   │──────► │ Pick     │──────► │ Confirm  │
+  │ or Login │        │ Service  │        │ Date &   │        │ Booking  │
+  │          │        │ Category │        │ Time     │        │    ✅    │
+  └──────────┘        └──────────┘        └──────────┘        └──────────┘
+                                                                    │
+  ┌──────────┐        ┌──────────┐        ┌──────────┐             │
+  │  Rate &  │◄────── │ Service  │◄────── │ Provider │◄────────────┘
+  │  Review  │        │ Complete │        │ Assigned │
+  │  ⭐⭐⭐⭐⭐│        │    🏠    │        │  & Notif.│
+  └──────────┘        └──────────┘        └──────────┘
+
+
+PROVIDER JOURNEY
+─────────────────────────────────────────────────────────────────────
+
+  Register ──► Set Availability ──► Receive Booking ──► Complete Job ──► Get Paid
+```
 ---
 
 👤 Author & Support
